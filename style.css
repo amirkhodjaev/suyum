@@ -1,14 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: url(''), auto;
+}
+
 .preloader {
-    /*фиксированное позиционирование*/
     position: fixed;
-    /* координаты положения */
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
-    /* фоновый цвет элемента */
     background: #e0e0e0;
-    /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
     z-index: 100100000000000000000000000000000000000;
 }
 
@@ -81,18 +84,10 @@
 
 .wrapper {
     max-width: 1190px;
+    width: 100%;
     margin: 0 auto;
     padding-left: 10px;
-    border: 1px black solid;
 }
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    cursor: url(''), auto;
-}
-
 
 .navbar {
     background: linear-gradient(180deg, #1950B4 0%, rgba(43, 98, 198, 0) 92.95%);
@@ -100,7 +95,13 @@
     height: 98px;
     border: 1px solid rgba(255, 255, 255, 0.19);
     backdrop-filter: blur(6px);
-    z-index: 100;
+}
+
+.test {
+    width: 100%;
+    z-index: 9999;
+    position: fixed !important;
+    height: 68px;
 }
 
 .background-main-phone {
@@ -109,8 +110,8 @@
     height: 660px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
+
 }
 
 .background-main-phone-2 {
@@ -119,8 +120,7 @@
     height: 660px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
+    background-position: bottom;
 }
 
 .img-group-nav {
@@ -312,7 +312,7 @@
     margin-top: 2px;
 }
 
-@media(max-width: 1155px) {
+@media(max-width: 1160px) {
     .ul-flex {
         margin-left: 100px;
     }
@@ -351,7 +351,7 @@
     }
 }
 
-@media(max-width: 935px) {
+@media(max-width: 937px) {
 
     .li-katalog,
     .li-divelery {
@@ -376,7 +376,7 @@
     }
 }
 
-@media(max-width: 763px) {
+@media(max-width: 770px) {
     .li-btn {
         margin-left: 50px;
     }
@@ -398,7 +398,7 @@
     }
 }
 
-@media(max-width: 605px) {
+@media(max-width: 607px) {
     .li-drop {
         margin-left: 70px;
     }
@@ -416,46 +416,13 @@
     }
 
     .img-last-nav-li {
-        margin-left: 200px;
+        position: absolute;
+        right: 0px;
+        margin-top: -25px;
+        margin-right: 70px;
     }
 }
 
-@media(max-width: 482px) {
-
-    .img-last-nav-li {
-        margin-left: 180px;
-    }
-}
-
-@media(max-width: 463px) {
-    .img-last-nav-li {
-        margin-left: 130px;
-    }
-}
-
-@media(max-width: 413px) {
-    .img-last-nav-li {
-        margin-left: 80px;
-    }
-}
-
-@media(max-width: 362px) {
-    .img-last-nav-li {
-        margin-left: 30px;
-    }
-}
-
-@media(max-width: 317px) {
-    .img-last-nav-li {
-        margin-left: -10px;
-    }
-}
-
-@media(max-width: 277px) {
-    .img-last-nav-li {
-        display: none;
-    }
-}
 
 .navbar-collapse {
     background: url(./img/nav-back-v2.png) no-repeat;
@@ -595,7 +562,6 @@
     background: url(./img/line-white-1.png);
     height: 69px;
     width: 100%;
-    border: 1px black solid;
     margin-top: -55px;
     z-index: 6;
     position: relative;
@@ -658,5 +624,213 @@
 
     75% {
         border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+    }
+}
+
+.img-cuo-water {
+    width: 442.27px;
+    height: 476.47px;
+}
+
+.filter-water-img {
+    width: 246.03px;
+    height: 457.86px;
+}
+
+.h3-wter {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    color: #044988;
+}
+
+.div-h3-icon {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -150px;
+    margin-left: 320px;
+}
+
+.flex-secyion-2 {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-end;
+    min-height: 455px;
+}
+
+.div-section-filter {
+    margin-left: 134px;
+}
+
+.icon-water {
+    width: 59px;
+    height: 59px;
+    margin-top: 5px;
+}
+
+.div-h3-icon-2 {
+    margin-left: 260px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -150px;
+}
+
+@media (max-width:1154px) {
+    .div-h3-icon-2 {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width:1082px) {
+    .img-cuo-water {
+        width: 382.27px;
+        height: 414.47px;
+    }
+
+    .filter-water-img {
+        width: 184.03px;
+        height: 397.86px;
+    }
+
+}
+
+@media (max-width:1026px) {
+
+    .div-h3-icon-2 {
+        margin-left: 130px;
+    }
+
+    .div-h3-icon {
+        margin-left: 280px;
+    }
+}
+
+@media (max-width: 953px) {
+    .img-cuo-water {
+        width: 322.27px;
+        height: 354.47px;
+    }
+
+    .filter-water-img {
+        width: 124.03px;
+        height: 337.86px;
+        margin-left: 30px;
+    }
+
+    .div-h3-icon-2 {
+        margin-left: 120px;
+    }
+
+    .div-h3-icon {
+        margin-left: 250px;
+    }
+
+    .flex-secyion-2 {
+        min-height: 355px;
+    }
+}
+
+@media (max-width: 880px) {
+    .img-cuo-water {
+        width: 302.27px;
+        height: 334.47px;
+    }
+
+    .filter-water-img {
+        width: 104.03px;
+        height: 317.86px;
+        margin-left: 30px;
+    }
+
+    .div-h3-icon-2 {
+        margin-left: 110px;
+    }
+
+    .div-h3-icon {
+        margin-left: 230px;
+    }
+
+    .icon-water {
+        width: 49px;
+        height: 49px;
+    }
+
+    .h3-wter {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .flex-secyion-2 {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 763px) {
+    .img-cuo-water {
+        max-width: 163.15px;
+        height: 175.76px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .filter-water-img {
+        max-width: 79.71px;
+        height: 148.33px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 32px;
+        width: 100%;
+    }
+
+    .flex-secyion-2 {
+        display: block;
+        padding-left: 0;
+    }
+
+    .div-section-filter {
+        margin-left: 0;
+    }
+
+    .h3-wter {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .div-h3-icon {
+        position: relative;
+        margin: 0 auto;
+        max-width: 200px;
+        padding-left: 10px;
+    }
+
+    .h3-wter-adaprive {
+        padding-top: 12px;
+    }
+
+    .div-h3-icon-2 {
+        position: relative;
+        margin: 0 auto;
+        max-width: 200px;
+        padding-left: 10px;
+    }
+
+
+    .br-none {
+        display: none
+    }
+
+    .icon-water {
+        max-width: 39px;
+        height: 39px;
+        width: 100%;
+        margin-left: 10px;
     }
 }
