@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./style.sass">
   <title>Document</title>
 </head>
@@ -20,8 +20,8 @@
       <div class="preloader__item"></div>
     </div>
   </div>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <nav class="navbar navbar-expand-чl navbar-dark">
+  <div class="collapse  navbar-collapse test" id="navbarSupportedContent">
+    <nav class="navbar navbar-test navbar-expand-чl navbar-dark">
       <div class="container-fluid wrapper">
         <a class="navbar-brand" href="index.html"><img class="img-group-nav" src="./img/Group 2561.png" alt=""></a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -38,7 +38,8 @@
               </li>
             </div>
             <li class="nav-item li-btn">
-              <a class="nav-link active " href="#"><button class="button-nav">Быстрый заказ</button></a>
+              <a class="nav-link active " href="#"><button data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  class="button-nav">Быстрый заказ</button></a>
             </li>
             <li class="nav-item li-drop">
               <a class="nav-link active" href="#">
@@ -121,7 +122,7 @@
     </div>
   </div>
   <div>
-    <nav class="navbar navbar-expand-чl navbar-dark test">
+    <nav class="navbar navbarScroll navbar-expand-чl navbar-dark">
       <div class="container-fluid wrapper">
         <a class="navbar-brand" href="index.html"><img class="img-group-nav" src="./img/Group 2561.png" alt=""></a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -172,12 +173,12 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active background-main-phone">
-          <div data-aos="fade-right"
-          data-aos-offset="400"
-          data-aos-easing="ease-in-sine" class="wrapper">
-            <h2 class="h2-carousel">Натуральная питьевая<br> вода Suyum </h2>
-            <p class="p-carousel">Вкусная и абсолютно чистая,<br> насыщенная кислородом</p>
-            <button class="button-carousel">В каталог</button>
+          <div class="wrapper">
+            <h2 data-aos="fade-right" data-aos-duration="1500" class="h2-carousel">Натуральная питьевая<br> вода Suyum
+            </h2>
+            <p data-aos="zoom-out-right" data-aos-duration="1200" class="p-carousel">Вкусная и абсолютно чистая,<br>
+              насыщенная кислородом</p>
+            <button data-aos="fade-up" data-aos-duration="2500" class="button-carousel">В каталог</button>
           </div>
         </div>
         <div class="carousel-item background-main-phone-2">
@@ -197,17 +198,17 @@
     </div>
     <div class="wrapper flex-secyion-2">
       <div class="div-section-water">
-        <img class="img-cuo-water" src="./img/cup-water.png" alt="">
-        <div class="div-h3-icon">
+        <img data-aos="fade-up" data-aos-duration="1000" class="img-cuo-water" src="./img/cup-water.png" alt="">
+        <div data-aos="zoom-in" data-aos-duration="800" class="div-h3-icon">
           <h3 class="h3-wter h3-wter-adaprive">Вода<br class="br-none"> питьевая </h3>
           <img class="icon-water" src="./img/img-icon-arrow.png" alt="">
         </div>
       </div>
       <div class="div-section-filter">
-        <img class="filter-water-img" src="./img/filter-water.png" alt="">
-        <div class=" div-h3-icon-2">
-        <h3 class="h3-wter">Оборудование<br> и аксессуары </h3>
-        <img class="icon-water" src="./img/img-icon-arrow.png" alt="">
+        <img data-aos="fade-down" data-aos-duration="1000" class="filter-water-img" src="./img/filter-water.png" alt="">
+        <div data-aos="zoom-in" data-aos-duration="800" class=" div-h3-icon-2">
+          <h3 class="h3-wter">Оборудование<br> и аксессуары </h3>
+          <img class="icon-water" src="./img/img-icon-arrow.png" alt="">
         </div>
       </div>
     </div>
@@ -218,16 +219,17 @@
       AOS.init();
     </script>
     <script>
-      var mainNav = document.querySelector('.navbar');
+      var mainNav = document.querySelector('.navbarScroll');
 
       window.onscroll = function () {
-          windowScroll();
+        windowScroll();
       };
 
       function windowScroll() {
-          mainNav.classList.toggle("test", mainNav.scrollTop > 50 || document.documentElement.scrollTop > 150);
+        mainNav.classList.toggle("test", mainNav.scrollTop > 50 || document.documentElement.scrollTop > 50);
       }
-  </script>
+    
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
