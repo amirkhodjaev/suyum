@@ -930,6 +930,23 @@
         background-repeat: none;
     }
 }
-.scrolled{
-  color: orange!important;
+@media(max-width: 710px){
+    .wrper-nav-intonav-div{
+        display: none;
+    }
+    .navbar-collapse {
+        background: white;
+    }
+    .adaptive-wrper-nav-intonav-div{
+        display: block;
+    }
+    .bfwfuwhue9fwhf{
+        display: block;
+    }
+}
+.adaptive-wrper-nav-intonav-div{
+    display: none;
+}
+.bfwfuwhue9fwhf{
+    display: none;
 }
