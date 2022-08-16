@@ -931,8 +931,13 @@
     }
 
     .waws-back-but-another {
+        height: 69px;
         max-width: 1190px;
         width: 100%;
+        margin-top: -50px;
+        z-index: 6;
+        position: relative;
+        background-repeat: no-repeat;
     }
 }
 
@@ -1066,14 +1071,16 @@
 }
 
 .waws-back-but-another {
-    background: url(./img/walwe-2-top.png);
-    height: 34px;
+    transform: rotate(180deg);
+    background: url(./img/line-white-1.png);
+    height: 69px;
     width: 100%;
     z-index: 6;
     margin-top: -10px;
     position: absolute;
     background-size: cover;
     background-repeat: none;
+
 }
 
 .div-backsectiopn-3 {
@@ -1415,6 +1422,7 @@
     margin: 0 auto;
     padding-left: 5px;
     padding-right: 5px;
+    border: 1px solid black;
 }
 
 .a-products {
@@ -1425,6 +1433,7 @@
     text-decoration: none;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .p-filter {
@@ -1507,45 +1516,23 @@
     padding-right: 10px;
 }
 
-@media(max-width: 853px) {
-    .margin-center-sec-5-11 {
-        margin: 0;
-    }
-
+@media(max-width: 865px) {
     .vectyor-2 {
         margin-top: 500px;
     }
 }
 
-@media(max-width: 671px) {
-    .margin-center-sec-5-22 {
-        margin: 0;
-    }
-}
-
-@media(max-width: 512px) {
-    .margin-center-sec-5-22 {
-        margin: 0;
-    }
-}
-
 @media(max-width: 496px) {
-    .margin-center-sec-5-22 {
-        margin: 0 auto;
-    }
-
     .vectyor-2 {
         margin-top: 800px;
     }
 }
 
-@media (max-width: 372px) {
-    .margin-center-sec-5-22 {
-        margin: 0 auto;
-    }
+@media (max-width: 500px) {
 
     .div-flex-and-warp {
         display: block;
+        padding-right: 10px;
     }
 
     .img-nsos {
@@ -1569,11 +1556,109 @@
     }
 
 }
-@media (max-width: 260px){
+
+@media (max-width: 260px) {
     .h2-proccer {
         font-weight: 500;
         font-size: 20px;
         line-height: 20px;
         margin-top: 30px;
+    }
+}
+
+.leafs {
+    position: absolute;
+    left: 0rem;
+    margin-top: -130px;
+}
+
+@media (max-width: 1020px) {
+    .leafs {
+        display: none;
+    }
+}
+
+.div-sec-6 {
+    background: url(./img/sec-5.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    min-height: 617px;
+    background-size: cover;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
+.button-nav-sells {
+    width: 252px;
+    height: 65px;
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.warapper-sec-6 {
+    padding-right: 10px;
+}
+
+.p-sells-2 {
+    max-width: 583px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.p-sesls {
+    max-width: 607px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.h2-sels {
+    padding-top: 84px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #FFFFFF;
+    max-width: 577px;
+}
+
+@media (max-width: 460px) {
+    .button-nav-sells {
+        max-width: 164px;
+        height: 40px;
+        margin-top: 10px;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .p-sells-2 {
+        max-width: 300px;
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 15px
+    }
+
+    .p-sesls {
+        max-width: 300px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 20px;
+    }
+
+    .h2-sels {
+        padding-top: 40px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 24px;
+        max-width: 300px;
     }
 }
