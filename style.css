@@ -1639,7 +1639,7 @@
         margin-top: 80px;
         padding-bottom: 50px;
     }
-    
+
     .button-nav-sells {
         max-width: 164px;
         height: 40px;
@@ -1746,4 +1746,39 @@
     margin-right: auto;
     left: 0;
     right: 0;
+}
+
+.div-section-8 {
+    background: url(./img/points.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    min-height: 563px;
+    padding-right: 10px;
+}
+
+.but-another-one {
+    margin-top: 65px;
+}
+
+.a-sec-8 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1370C6;
+    text-decoration: underline;
+}
+
+.margin-con-top {
+    margin-top: 60px;
+}
+.img-water-ball{
+    position: absolute;
+    right: 0;
+}
+@media (max-width: 1260px){
+    .img-water-ball{
+        display: none;
+    }
 }
