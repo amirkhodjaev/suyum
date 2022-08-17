@@ -2239,6 +2239,73 @@
     margin-top: 250px !important;
 }
 
+@media(max-width: 993px) {
+    .prodact-p {
+        font-weight: 700;
+        line-height: 12px !important;
+        font-size: 5px !important;
+        color: #191919;
+        max-width: 129px !important;
+        width: 100%;
+        text-align: center;
+        margin-top: 250px !important;
+    }
+
+    .div-body-content-madal {
+        max-width: 400px;
+        width: 100%;
+        font-size: 5px !important;
+    }
+}
+
+@media(max-width: 577px) {
+    .modal-dialog {
+        max-width: 400px !important;
+        margin: 0 auto !important;
+    }
+
+    .div-body-content-madal {
+        max-width: 300px;
+        width: 100%;
+        font-size: 5px !important;
+    }
+}
+
+@media(max-width: 413px) {
+    .modal-dialog {
+        max-width: 300px !important;
+        margin: 0 auto !important;
+    }
+
+    .div-body-content-madal {
+        max-width: 200px;
+        width: 100%;
+        font-size: 5px !important;
+        margin-left: 20px;
+    }
+
+
+}
+
+@media(max-width: 303px) {
+    .modal-dialog {
+        max-width: 220px !important;
+        margin: 0 auto !important;
+    }
+
+    .div-body-content-madal {
+        max-width: 100px;
+        width: 100%;
+        font-size: 5px !important;
+        margin-left: 20px;
+    }
+
+    .h2-proccer-modal {
+        font-size: 20px !important;
+    }
+}
+
+
 .div-back-img {
     position: absolute;
     background: #FFFFFF;
@@ -2348,24 +2415,29 @@
 .hsciba {
     margin-left: 15px;
 }
-@media (max-width: 606px){
-    .div-with-container-flex{
+
+@media (max-width: 606px) {
+    .div-with-container-flex {
         margin: 0 auto;
         margin-top: 10px;
     }
 }
-@media (max-width: 302px){
+
+@media (max-width: 302px) {
     .develare-catalog-img {
         max-width: 302px;
     }
+
     .div-back-img {
         max-width: 250px;
     }
+
     .card-body {
         max-width: 250px;
     }
+
     .p-to-buy {
         margin-top: 10px;
     }
-    
+
 }

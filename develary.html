@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.sass">
+  <title>Document</title>
+</head>
+
+<body class="body">
+  <div class="preloader">
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+  <div class="collapse  navbar-collapse test" id="navbarSupportedContent">
+    <nav class="navbar navbar-test navbar-expand-чl navbar-dark">
+      <div class="container-fluid wrapper">
+        <a class="navbar-brand" href="index.html"><img class="img-group-nav" src="./img/Group 2561.png" alt=""></a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="ul-flex">
+            <div class="ul-flex-invis">
+              <li class="nav-item li-katalog">
+                <a class="nav-link active cool-link" aria-current="page" href="katalog.html"><span><img class="img-icon-1"
+                      src="./img/con-nav-1.png" alt=""></span> Каталог</a>
+              </li>
+              <li class="nav-item li-divelery">
+                <a class="nav-link active cool-link" href="#"><span><img class="img-icon-2" src="./img/icon-nav-2.png"
+                      alt=""></span>
+                  Доставка</a>
+              </li>
+            </div>
+            <li class="nav-item li-btn">
+              <a class="nav-link active " href="#"><button data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  class="button-nav">Быстрый заказ</button></a>
+            </li>
+            <li class="nav-item li-drop">
+              <a class="nav-link active" href="#">
+                <div class="dropdown">
+                  <button class="dropbtn">+7 (916) 171-27-67<span><img class="img-arrow" src="./img/arrow.png"
+                        alt=""></span></button>
+                  <div class="dropdown-content">
+                    <a class="p-drop" href="#">Телефоны для заказа</a>
+                    <div class="phons">
+                      <a class="a-drop" href="#">+7 (916) 171-27-67</a>
+                      <a class="a-drop" href="#">+7 (968) 721-22-51</a>
+                      <a class="a-drop" href="#">+7 (903) 739-72-46</a>
+                      <a class="a-drop" href="#">+7 (917) 528-41-57</a>
+                    </div>
+                    <div class="liner-drop"></div>
+                    <a class="p-drop p-drop-2" href="#">Менеджер по работе<br> с новыми клиентами</a>
+                    <a class="a-drop a-drop-top" href="#">+7 (926) 037-55-92</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item img-last-nav-li">
+              <a class="nav-link active" href="#"><img class="img-last-nav" src="./img/Group 2604.png" alt=""></a>
+            </li>
+          </div>
+        </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="div-nav-adaptive">
+      <div class="dropdown-222">
+        <button onclick="myFunction()" class="dropbtn-222">+7 (916) 171-27-67<span><img class="img-arrow"
+              src="./img/arrow-black.png" alt=""></span></button>
+        <p class="p-email">frolova.antonina.voda@yandex.ru</p>
+        <div id="myDropdown" class="dropdown-content-222">
+          <a class="p-drop" href="#">Телефоны для заказа</a>
+          <div class="phons phons-22">
+            <a class="a-drop" href="#">+7 (916) 171-27-67</a>
+            <a class="a-drop" href="#">+7 (968) 721-22-51</a>
+            <a class="a-drop" href="#">+7 (903) 739-72-46</a>
+            <a class="a-drop" href="#">+7 (917) 528-41-57</a>
+          </div>
+          <div class="liner-drop"></div>
+          <a class="p-drop p-drop-2" href="#">Менеджер по работе<br> с новыми клиентами</a>
+          <a class="a-drop a-drop-top" href="#">+7 (926) 037-55-92</a>
+        </div>
+      </div>
+      <div class="navbar-content-adaptive">
+        <a class="decoration-none" href="katalog.html">
+        <h3 class="h3-katlog-adap"><span><img class="blue-img" src="./img/filter-blue.png" alt=""></span>Каталог</h3>
+      </a>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <h3 class="h3-katlog-adap-22"><span><img class="blue-img-22" src="./img/fura-blue.png"
+                      alt=""></span>Доставка</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p class="p-accordion">Доставка воды в офис</p>
+                <p class="p-accordion">Доставка воды на дом</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="h3-after-accor">О компании</h3>
+        <a class="decoration-none" href="states.html">
+          <h3 class="h3-after-accor">Статьи</h3>
+        </a>
+        <h3 class="h3-after-accor">Отзывы</h3>
+        <h3 class="h3-after-accor">Фирменные павильоны</h3>
+        <h3 class="h3-after-accor">Контакты</h3>
+      </div>
+    </div>
+    <div class="wrapper wrper-nav-intonav-div">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <a class="nav-link active nav-a-katalog-norm" aria-current="page" href="katalog.html"><span><img class="img-icon-1"
+                  src="./img/con-nav-1.png" alt=""></span><span class="span-color-nav-2">Каталог</span></a>
+            <br>
+            <a class="nav-link active nav-a-katalog-norm" href="#"><span><img class="img-icon-2"
+                  src="./img/icon-nav-2.png" alt=""></span><span class="span-color-nav-2">Доставка</span></a>
+            <a class="span-color-nav-2-no-name" href="#">Доставка воды в офис</a>
+            <br>
+            <a class="span-color-nav-2-no-name" href="#">Доставка воды на дом</a>
+          </div>
+          <div class="col div-2-nuber">
+            <a class="span-color-nav-2-no-name" href="#">О компании</a>
+            <br>
+            <a class="span-color-nav-2-no-name" href="states.html">Статьи</a>
+            <br>
+            <a class="span-color-nav-2-no-name" href="#">Отзывы</a>
+            <br>
+            <a class="span-color-nav-2-no-name" href="#">Фирменные павильоны</a>
+            <br>
+            <a class="span-color-nav-2-no-name" href="#">Контакты</a>
+          </div>
+          <div class="col div-3-nuber">
+            <a class="span-color-nav-2-no-name span-color-nav-2-no-name-first-bottom" href="#">Телефоны для заказа</a>
+            <br>
+            <div class="div-phone-numbers-flex">
+              <div>
+                <a class="span-color-nav-2-no-name" href="#">+7 (916) 171-27-67</a>
+                <br>
+                <a class="span-color-nav-2-no-name" href="#">+7 (968) 721-22-51</a>
+                <br>
+              </div>
+              <div class="div-left-2">
+                <a class="span-color-nav-2-no-name" href="#">+7 (916) 171-27-67</a></a>
+                <br>
+                <a class="span-color-nav-2-no-name" href="#">+7 (916) 171-27-67</a>
+              </div>
+            </div>
+            <a class="span-color-nav-2-no-name span-color-nav-2-no-name-first-bottom" href="#">Менеджер по работе с
+              новыми клиентами</a>
+            <br>
+            <a class="span-color-nav-2-no-name" href="#">+7 (926) 037-55-92</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <nav class="navbar navbarScroll navbar-expand-чl navbar-dark">
+      <div class="container-fluid wrapper">
+        <a class="navbar-brand" href="index.html"><img class="img-group-nav" src="./img/Group 2561.png" alt=""></a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="ul-flex">
+            <li class="nav-item li-katalog">
+              <a class="nav-link active cool-link" aria-current="page" href="katalog.html"><span><img class="img-icon-1"
+                    src="./img/con-nav-1.png" alt=""></span> Каталог</a>
+            </li>
+            <li class="nav-item li-divelery">
+              <a class="nav-link active cool-link" href="#"><span><img class="img-icon-2" src="./img/icon-nav-2.png"
+                    alt=""></span>
+                Доставка</a>
+            </li>
+            <li class="nav-item li-btn">
+              <a class="nav-link active " href="#"><button class="button-nav" type="button" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">Быстрый заказ</button></a>
+            </li>
+            <li class="nav-item li-drop">
+              <a class="nav-link active" href="#">
+                <div class="dropdown">
+                  <button class="dropbtn">+7 (916) 171-27-67<span><img class="img-arrow" src="./img/arrow.png"
+                        alt=""></span></button>
+                  <div class="dropdown-content">
+                    <a class="p-drop" href="#">Телефоны для заказа</a>
+                    <div class="phons">
+                      <a class="a-drop" href="#">+7 (916) 171-27-67</a>
+                      <a class="a-drop" href="#">+7 (968) 721-22-51</a>
+                      <a class="a-drop" href="#">+7 (903) 739-72-46</a>
+                      <a class="a-drop" href="#">+7 (917) 528-41-57</a>
+                    </div>
+                    <div class="liner-drop"></div>
+                    <a class="p-drop p-drop-2" href="#">Менеджер по работе<br> с новыми клиентами</a>
+                    <a class="a-drop a-drop-top" href="#">+7 (926) 037-55-92</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item img-last-nav-li">
+              <a class="nav-link active" href="#"><img class="img-last-nav" src="./img/Group 2604.png" alt=""></a>
+            </li>
+          </div>
+        </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h2 class="h2-proccer h2-proccer-modal">
+              Быстрый заказ
+              <div class="div-top-fast">
+              <input class="input-modal" type="text" placeholder="Ваше имя или название компании">
+              <br>
+              <input class="input-modal" type="text" placeholder="Телефон">
+              <br>
+              <input class="input-modal" type="text" placeholder="E-mail">
+            </div>
+              <br>
+              <button class="btnd-mdl">Отправить</button>
+              <div class="div-flex-checkbox">
+                <input class="chek" type="checkbox">
+                <div class="div-body-content-madal">
+                <p class="p-prinyatie">Нажимая кнопку «Отправить», я даю <span class="span-blue"> свое согласие на
+                    обработку моих персональных данных,</span> в соответствии с<br> Федеральным законом от 27.07.2006
+                  года №152-ФЗ «О персональных данных», на условиях и для целей,<br> определенных в Согласии на
+                  обработку персональных данных</p>
+                </div>
+              </div>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="katalog-begin">
+        <div class="wrapper mar-top-katal-and-main">
+            <a class="decoration-none" href="index.html"><button class="button-to-main">
+                    < Главная</button></a>
+            <h2 class="stats stats-katalog">Доставка</h2>
+        </div>
+        <div class=" wrapper">
+            <h2 class="h2-proccer ">
+                Производственный процесс
+            </h2>
+            <div class="container-fluid mar-top-con-katal" >
+                <div class="div-flex-and-warp">
+                    <div class="div-with-container-flex hsciba">
+                        <div class="div-back-img">
+                            <img class="develare-catalog-img" src="./img/product-1.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="prodact-p">Одноразовые стаканчики – упаковка (100 шт.)</p>
+                            <h3 class="h3-mopney-300">300 ₽<span class="span-upokopva">/ упаковка</span></h3>
+                            <div class="div-flex-catalog">
+                                <button class="BUTTON-KATALOG">В корзину </button>
+                            </div>
+                            <p class="p-to-buy">Купить в 1 клик</p>
+                        </div>
+                    </div>
+                    <div class="div-with-container-flex hsciba">
+                        <div class="div-back-img">
+                            <img class="develare-catalog-img" src="./img/product-2.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="prodact-p">Одноразовые стаканчики – упаковка (100 шт.)</p>
+                            <h3 class="h3-mopney-300">300 ₽<span class="span-upokopva">/ упаковка</span></h3>
+                            <div class="div-flex-catalog">
+                                <button class="BUTTON-KATALOG">В корзину </button>
+                            </div>
+                            <p class="p-to-buy">Купить в 1 клик</p>
+                        </div>
+                    </div>
+                    <div class="div-with-container-flex hsciba">
+                        <div class="div-back-img">
+                            <img class="develare-catalog-img" src="./img/product-3.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="prodact-p">Одноразовые стаканчики – упаковка (100 шт.)</p>
+                            <h3 class="h3-mopney-300">300 ₽<span class="span-upokopva">/ упаковка</span></h3>
+                            <div class="div-flex-catalog">
+                                <button class="BUTTON-KATALOG">В корзину </button>
+                            </div>
+                            <p class="p-to-buy">Купить в 1 клик</p>
+                        </div>
+                    </div>
+                    <div class="div-with-container-flex hsciba">
+                        <div class="div-back-img">
+                            <img class="develare-catalog-img" src="./img/product-4.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="prodact-p">Одноразовые стаканчики – упаковка (100 шт.)</p>
+                            <h3 class="h3-mopney-300">300 ₽<span class="span-upokopva">/ упаковка</span></h3>
+                            <div class="div-flex-catalog">
+                                <button class="BUTTON-KATALOG">В корзину </button>
+                            </div>
+                            <p class="p-to-buy">Купить в 1 клик</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="img-mask-group" src="./img/Mask Group.png" alt="">
+    <div class="div-back-of-section-4">
+      <div class="div-section-4 wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <div data-aos="fade-up" class="div-sec-4">
+                <img class="img-sec-4" src="./img/icon-sec-1.png" alt="">
+                <p class="p-sec-4 ">Чистая, натуральная питьевая вода
+                  <span class="span-sec-4">по низкой цене</span>
+                </p>
+              </div>
+              <div data-aos="fade-up" class="div-sec-4">
+                <img class="img-sec-4" src="./img/icon-sec-2.png" alt="">
+                <p class="p-sec-4 p-sec-4-22"><span class="span-sec-4">Бесплатная доставка </span>
+                  воды 7 дней в неделю на следующий день после её заказа
+                </p>
+              </div>
+              <div data-aos="fade-up" class="div-sec-4">
+                <img class="img-sec-4 p-sec-4-33333" src="./img/icon-water-2.png" alt="">
+                <p class="p-sec-4 "><span class="span-sec-4">Высокое содержание кислорода</span> в
+                  воде: улучшает самочувствие и повышает работоспособность
+                </p>
+              </div>
+            </div>
+            <div class="col div-col-right div-hidden-sec-4">
+              <div class="div-sec-4">
+                <img class="img-sec-4" src="./img/icon-water-4.png" alt="">
+                <p class="p-sec-4">
+                  <span class="span-sec-4">Бутилирование без доступа воздухе</span>
+                  (не говоря уже о человеческих руках)
+                </p>
+              </div>
+              <div class="div-sec-4">
+                <img class="img-sec-4" src="./img/icon-water-5.png" alt="">
+                <p class="p-sec-4"><span class="span-sec-4">Отличые вкусовые качества: </span>
+                  за счет натуральности и природной свежести
+                </p>
+              </div>
+              <div class="div-sec-4">
+                <img class="img-sec-4" src="./img/icon-water-6.png" alt="">
+                <p class="p-sec-4">
+                  <span class="span-sec-4">Идеальная мягкость воды </span>
+                  (за счет снижение содержания солей кальция и магния)
+                </p>
+              </div>
+            </div>
+            <div class="col div-col-right div-col-right-3333">
+              <div data-aos="fade-up" class="div-sec-4 div-col-right-33">
+                <img class="img-sec-4" src="./img/icon-water-4.png" alt="">
+                <p class="p-sec-4 p-sec-4-666">
+                  <span class="span-sec-4">Бутилирование без доступа воздухе</span>
+                  (не говоря уже о человеческих руках)
+                </p>
+              </div>
+              <div data-aos="fade-up" class="div-sec-4">
+                <img class="img-sec-4" src="./img/icon-water-5.png" alt="">
+                <p class="p-sec-4 p-sec-4-555"><span class="span-sec-4">Отличые вкусовые качества: </span>
+                  за счет натуральности и природной свежести
+                </p>
+              </div>
+              <div data-aos="fade-up" class="div-sec-4">
+                <img class="img-sec-4" src="./img/icon-water-6.png" alt="">
+                <p class="p-sec-4 p-sec-4-444">
+                  <span class="span-sec-4">Идеальная мягкость воды </span>
+                  (за счет снижение содержания солей кальция и магния)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper wrapper-sec-7">
+      <div class="container-fluid">
+        <div class="row">
+          <div data-aos="fade-up" data-aos-duration="500" class="col">
+            <img class="img-develary img-develary-1" src="./img/develery-icon-1.png" alt="">
+            <h4 class="h4-develary" style="margin-top: 34px;">Доставка воды в офис</h4>
+            <p class="p-develary">Бесплатная доставка питьевой воды в офис на следующий день после заказа</p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="800" class="col">
+            <img class="img-develary img-develary-2" src="./img/develery-icon-2.png" alt="">
+            <h4 class="h4-develary" style="margin-top: 35px;">Доставка воды  на дом</h4>
+            <p class="p-develary">Бесплатная доставка воды по Москве и области с подъёмом в квартиру </p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1100" class="col">
+            <img class="img-develary img-develary-3" src="./img/develery-icon-3.png" alt="">
+            <h4 class="h4-develary" style="margin-top: 3px;">Бесплатная доставка</h4>
+            <p class="p-develary">Бесплатная доставка питьевой воды от 2-х бутылок </p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="1400" class="col">
+            <img class="img-develary img-develary-4" src="./img/develery-icon-4.png" alt="">
+            <h4 class="h4-develary" style="margin-top: 34px;">Оплата</h4>
+            <p class="p-develary">Оплата осуществляется безналичным способом, банковской картой
+              или наличными курьеру</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="img-water-ball" src="./img/watre-ball.png" alt="">
+    <div class="div-section-8 wrapper">
+      <h2 class="h2-proccer but-another-one">Регионы доставки </h2>
+      <div class="container-fluid margin-con-top">
+        <div class="row">
+          <div class="col col-sec-888">
+            <p class="a-sec-8">Москва ЮГ (внутри МКАДа)</p>
+
+            <p class="a-sec-8">Подольск</p>
+
+            <p class="a-sec-8">Климовск</p>
+
+            <p class="a-sec-8">Щербинка</a>
+
+            <p class="a-sec-8">Львовский</p>
+
+            <p class="a-sec-8">Бутово</p>
+          </div>
+          <div class="col col-sec-888">
+            <p class="a-sec-8">Чехов</p>
+
+            <p class="a-sec-8">Домодедово</p>
+
+            <p class="a-sec-8">Видное</p>
+
+            <p class="a-sec-8">Ступино</p>
+            <p class="a-sec-8">Оболенск</p>
+
+            <p class="a-sec-8">Вороново</p>
+          </div>
+          <div class="col col-sec-888">
+            <p class="a-sec-8">Троицк</p>
+
+            <p class="a-sec-8">Воскресенское</p>
+
+            <p class="a-sec-8">Серпухов</p>
+
+            <p class="a-sec-8">Краснопахорское</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="img-line-ladt"></div>
+  <img class="img-line-end" src="./img/line-end.png" alt="">
+  <div class="last-end-div">
+    <div class=" wrapper">
+      <div class="iiuewfe">
+        <div class="div-0">
+          <img class="img-group-2561" src="./img/Group 2561.png" alt="">
+        </div>
+        <div class="div-1">
+          <p class="p-con-devel"><span><img class="img-icons-end" src="./img/icon-nav-2.png" alt=""></span>Каталог</p>
+          <p class="p-con-devel"><span><img class="img-icons-end" src="./img/con-nav-1.png" alt=""></span>Доставка</p>
+          <p class="p-non-con">Доставка воды в офис</p>
+          <p class="p-non-con">Доставка воды на дом</p>
+        </div>
+        <div class="div-2">
+          <p class="p-non-con">О компании</p>
+          <p class="p-non-con">Статьи</p>
+          <p class="p-non-con">Отзывы</p>
+          <p class="p-non-con">Фирменные павильоны</p>
+          <p class="p-non-con">Контакты</p>
+        </div>
+        <div class="div-3">
+          <a class="span-color-nav-2-no-name span-color-nav-2-no-name-first-bottom" href="#">Телефоны для заказа</a>
+          <br>
+          <a class="span-color-nav-2-no-name" href="#">+7 (916) 171-27-67</a>
+          <br>
+          <a class="span-color-nav-2-no-name" href="#">+7 (968) 721-22-51</a>
+          <br>
+          <a class="span-color-nav-2-no-name" href="#">+7 (916) 171-27-67</a>
+          <br>
+          <a class="span-color-nav-2-no-name" href="#">+7 (916) 171-27-67</a>
+          <br><br>
+          <a class="span-color-nav-2-no-name span-color-nav-2-no-name-first-bottom" href="#">Электронная почта</a>
+          <br>
+          <a class="span-color-nav-2-no-name email" href="#">frolova.antonina.voda@yandex.ru</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#" title="Вернуться к началу" class="topbutton"><img class="img-aarrow-bottn" src="./img/arrow.png" alt=""></a>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    var mainNav = document.querySelector('.navbarScroll');
+
+    window.onscroll = function () {
+      windowScroll();
+    };
+
+    function windowScroll() {
+      mainNav.classList.toggle("test", mainNav.scrollTop > 50 || document.documentElement.scrollTop > 50);
+    }
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
