@@ -28,7 +28,7 @@
           <div class="ul-flex">
             <div class="ul-flex-invis">
               <li class="nav-item li-katalog">
-                <a class="nav-link active cool-link" aria-current="page" href="#"><span><img class="img-icon-1"
+                <a class="nav-link active cool-link" aria-current="page" href="katalog.html"><span><img class="img-icon-1"
                       src="./img/con-nav-1.png" alt=""></span> Каталог</a>
               </li>
               <li class="nav-item li-divelery">
@@ -91,7 +91,9 @@
         </div>
       </div>
       <div class="navbar-content-adaptive">
+        <a class="decoration-none" href="katalog.html">
         <h3 class="h3-katlog-adap"><span><img class="blue-img" src="./img/filter-blue.png" alt=""></span>Каталог</h3>
+      </a>
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
@@ -111,7 +113,9 @@
           </div>
         </div>
         <h3 class="h3-after-accor">О компании</h3>
-        <a class="decoration-none" href="states.html"><h3 class="h3-after-accor">Статьи</h3></a>
+        <a class="decoration-none" href="states.html">
+          <h3 class="h3-after-accor">Статьи</h3>
+        </a>
         <h3 class="h3-after-accor">Отзывы</h3>
         <h3 class="h3-after-accor">Фирменные павильоны</h3>
         <h3 class="h3-after-accor">Контакты</h3>
@@ -121,7 +125,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col">
-            <a class="nav-link active nav-a-katalog-norm" aria-current="page" href="#"><span><img class="img-icon-1"
+            <a class="nav-link active nav-a-katalog-norm" aria-current="page" href="katalog.html"><span><img class="img-icon-1"
                   src="./img/con-nav-1.png" alt=""></span><span class="span-color-nav-2">Каталог</span></a>
             <br>
             <a class="nav-link active nav-a-katalog-norm" href="#"><span><img class="img-icon-2"
@@ -173,7 +177,7 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <div class="ul-flex">
             <li class="nav-item li-katalog">
-              <a class="nav-link active cool-link" aria-current="page" href="#"><span><img class="img-icon-1"
+              <a class="nav-link active cool-link" aria-current="page" href="katalog.html"><span><img class="img-icon-1"
                     src="./img/con-nav-1.png" alt=""></span> Каталог</a>
             </li>
             <li class="nav-item li-divelery">
@@ -182,7 +186,8 @@
                 Доставка</a>
             </li>
             <li class="nav-item li-btn">
-              <a class="nav-link active " href="#"><button class="button-nav">Быстрый заказ</button></a>
+              <a class="nav-link active " href="#"><button class="button-nav" type="button" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">Быстрый заказ</button></a>
             </li>
             <li class="nav-item li-drop">
               <a class="nav-link active" href="#">
@@ -215,6 +220,36 @@
         </button>
       </div>
     </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h2 class="h2-proccer h2-proccer-modal">
+              Быстрый заказ
+              <div class="div-top-fast">
+              <input class="input-modal" type="text" placeholder="Ваше имя или название компании">
+              <br>
+              <input class="input-modal" type="text" placeholder="Телефон">
+              <br>
+              <input class="input-modal" type="text" placeholder="E-mail">
+            </div>
+              <br>
+              <button class="btnd-mdl">Отправить</button>
+              <div class="div-flex-checkbox">
+                <input class="chek" type="checkbox">
+                <p class="p-prinyatie">Нажимая кнопку «Отправить», я даю <span class="span-blue"> свое согласие на
+                    обработку моих персональных данных,</span> в соответствии с<br> Федеральным законом от 27.07.2006
+                  года №152-ФЗ «О персональных данных», на условиях и для целей,<br> определенных в Согласии на
+                  обработку персональных данных</p>
+              </div>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active background-main-phone">
@@ -223,14 +258,17 @@
             </h2>
             <p data-aos="zoom-out-right" data-aos-duration="1200" class="p-carousel">Вкусная и абсолютно чистая,<br>
               насыщенная кислородом</p>
-            <button data-aos="fade-up" data-aos-duration="2500" class="button-carousel">В каталог</button>
+            <button data-aos="fade-up" data-aos-duration="2500" class="button-carousel" type="button" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">В каталог</button>
           </div>
         </div>
         <div class="carousel-item background-main-phone-2">
           <div class="wrapper">
             <h2 class="h2-carousel">Кристально чистая<br> вода Suyum </h2>
             <p class="p-carousel">Вкусная и абсолютно чистая,<br> насыщенная кислородом</p>
-            <button class="button-carousel">В каталог</button>
+            <button class="button-carousel" type="button" data-bs-toggle="modal"
+            data-bs-target="#exampleModal" type="button" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">В каталог</button>
           </div>
         </div>
       </div>
@@ -268,7 +306,8 @@
             <p class="p-offis">Чистая питьевая вода с бесплатной доставкой домой и в офис! </p>
           </div>
           <h2 class="h2-cash">от<span class="span-cash">165 ₽</span></h2>
-          <button class="button-carousel button-carousel-develery">Заказать доставку</button>
+          <button class="button-carousel button-carousel-develery" type="button" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Заказать доставку</button>
         </div>
       </div>
     </div>
@@ -346,7 +385,7 @@
       </div>
     </div>
     <img class="leafs" src="./img/leafs.png" alt="">
-    <h2 class="h2-proccer ">
+    <h2 class="h2-proccer h2-proccer-katalog">
       Производственный процесс
     </h2>
     <div class="wrapper div-flex-and-warp">
@@ -398,7 +437,8 @@
           бутылках по
           приемлемой цене. Мы заботимся о вашем здоровье и всегда держим марку.</p>
         <button data-aos="fade-right" data-bs-toggle="modal" data-bs-target="#exampleModal"
-          class="button-nav button-nav-sells">Быстрый
+          class="button-nav button-nav-sells" type="button" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Быстрый
           заказ</button>
       </div>
     </div>
@@ -484,12 +524,12 @@
         </p>
         <p data-aos="fade-right" class="p-sells-2">Для удобства потребителей питьевая вода «Suyum» реализуется в
           бутылях. Цены зависят от приобретаемого количества.</p>
-        <button data-aos="fade-right" class="button-carousel button-carousel-develery">Заказать доставку</button>
+        <button data-aos="fade-right" class="button-carousel button-carousel-develery" type="button" data-bs-toggle="modal"
+        data-bs-target="#exampleModal">Заказать доставку</button>
         <img class="small-human" src="./img/small-human.png" alt="">
       </div>
     </div>
   </div>
-  <div class="waws-back"><br><br><br></div>
   <div class="wrapper warapper-sec-6">
     <h2 class="stats">Статьи</h2>
     <div class="container-fluid margin-top-vontainer">
@@ -529,6 +569,8 @@
       </div>
     </div>
   </div>
+  <div class="img-line-ladt"></div>
+  <img class="img-line-end" src="./img/line-end.png" alt="">
   <div class="last-end-div">
     <div class=" wrapper">
       <div class="iiuewfe">
@@ -566,6 +608,7 @@
       </div>
     </div>
   </div>
+  <a href="#" title="Вернуться к началу" class="topbutton"><img class="img-aarrow-bottn" src="./img/arrow.png" alt=""></a>
   <script src="script.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>

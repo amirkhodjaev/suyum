@@ -28,7 +28,7 @@
           <div class="ul-flex">
             <div class="ul-flex-invis">
               <li class="nav-item li-katalog">
-                <a class="nav-link active cool-link" aria-current="page" href="#"><span><img class="img-icon-1"
+                <a class="nav-link active cool-link" aria-current="page" href="katalog.html"><span><img class="img-icon-1"
                       src="./img/con-nav-1.png" alt=""></span> Каталог</a>
               </li>
               <li class="nav-item li-divelery">
@@ -91,7 +91,9 @@
         </div>
       </div>
       <div class="navbar-content-adaptive">
+        <a href="decoratio">
         <h3 class="h3-katlog-adap"><span><img class="blue-img" src="./img/filter-blue.png" alt=""></span>Каталог</h3>
+    </a>
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
@@ -121,7 +123,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col">
-            <a class="nav-link active nav-a-katalog-norm" aria-current="page" href="#"><span><img class="img-icon-1"
+            <a class="nav-link active nav-a-katalog-norm" aria-current="page" href="katalog.html"><span><img class="img-icon-1"
                   src="./img/con-nav-1.png" alt=""></span><span class="span-color-nav-2">Каталог</span></a>
             <br>
             <a class="nav-link active nav-a-katalog-norm" href="#"><span><img class="img-icon-2"
@@ -173,7 +175,7 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <div class="ul-flex">
             <li class="nav-item li-katalog">
-              <a class="nav-link active cool-link" aria-current="page" href="#"><span><img class="img-icon-1"
+              <a class="nav-link active cool-link decoration-none" aria-current="page" href="katalog.html"><span><img class="img-icon-1"
                     src="./img/con-nav-1.png" alt=""></span> Каталог</a>
             </li>
             <li class="nav-item li-divelery">
@@ -182,7 +184,8 @@
                 Доставка</a>
             </li>
             <li class="nav-item li-btn">
-              <a class="nav-link active " href="#"><button class="button-nav">Быстрый заказ</button></a>
+              <a class="nav-link active " href="#"><button class="button-nav" type="button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Быстрый заказ</button></a>
             </li>
             <li class="nav-item li-drop">
               <a class="nav-link active" href="#">
@@ -215,6 +218,36 @@
         </button>
       </div>
     </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h2 class="h2-proccer h2-proccer-modal">
+                Быстрый заказ
+                <div class="div-top-fast">
+                <input class="input-modal" type="text" placeholder="Ваше имя или название компании">
+                <br>
+                <input class="input-modal" type="text" placeholder="Телефон">
+                 <br>
+                <input class="input-modal" type="text" placeholder="E-mail">
+              </div>
+                <br>
+                <button class="btnd-mdl">Отправить</button>
+                <div class="div-flex-checkbox">
+                  <input class="chek" type="checkbox">
+                  <p class="p-prinyatie">Нажимая кнопку «Отправить», я даю <span class="span-blue"> свое согласие на
+                      обработку моих персональных данных,</span> в соответствии с<br> Федеральным законом от 27.07.2006
+                    года №152-ФЗ «О персональных данных», на условиях и для целей,<br> определенных в Согласии на
+                    обработку персональных данных</p>
+                </div>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
   <div class="wrapper warapper-sec-6 warapper-sec-6-another">
     <a class="decoration-none" href="index.html"><button class="button-to-main">< Главная</button></a>
     <h2 class="stats">Статьи</h2>
@@ -331,6 +364,8 @@
       </div>
     </div>
   </div>
+  <div class="img-line-ladt"></div>
+  <img class="img-line-end" src="./img/line-end.png" alt="">
   <div class="last-end-div">
     <div class=" wrapper">
       <div class="iiuewfe">
@@ -368,6 +403,7 @@
       </div>
     </div>
   </div>
+  <a href="#" title="Вернуться к началу" class="topbutton"><img class="img-aarrow-bottn" src="./img/arrow.png" alt=""></a>
   <script src="script.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
