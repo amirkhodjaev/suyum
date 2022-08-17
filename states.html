@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.sass">
+  <title>Document</title>
+</head>
+
+<body class="body">
+  <div class="preloader">
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+  <div class="collapse  navbar-collapse test test-state" id="navbarSupportedContent">
+    <nav class="navbar navbar-test navbar-expand-чl navbar-dark">
+      <div class="container-fluid wrapper">
+        <a class="navbar-brand" href="index.html"><img class="img-group-nav" src="./img/Group 2561.png" alt=""></a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="ul-flex">
+            <div class="ul-flex-invis">
+              <li class="nav-item li-katalog">
+                <a class="nav-link active cool-link" aria-current="page" href="#"><span><img class="img-icon-1"
+                      src="./img/con-nav-1.png" alt=""></span> Каталог</a>
+              </li>
+              <li class="nav-item li-divelery">
+                <a class="nav-link active cool-link" href="#"><span><img class="img-icon-2" src="./img/icon-nav-2.png"
+                      alt=""></span>
+                  Доставка</a>
+              </li>
+            </div>
+            <li class="nav-item li-btn">
+              <a class="nav-link active " href="#"><button data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  class="button-nav">Быстрый заказ</button></a>
+            </li>
+            <li class="nav-item li-drop">
+              <a class="nav-link active" href="#">
+                <div class="dropdown">
+                  <button class="dropbtn">+7 (916) 171-27-67<span><img class="img-arrow" src="./img/arrow.png"
+                        alt=""></span></button>
+                  <div class="dropdown-content">
+                    <a class="p-drop" href="#">Телефоны для заказа</a>
+                    <div class="phons">
+                      <a class="a-drop" href="#">+7 (916) 171-27-67</a>
+                      <a class="a-drop" href="#">+7 (968) 721-22-51</a>
+                      <a class="a-drop" href="#">+7 (903) 739-72-46</a>
+                      <a class="a-drop" href="#">+7 (917) 528-41-57</a>
+                    </div>
+                    <div class="liner-drop"></div>
+                    <a class="p-drop p-drop-2" href="#">Менеджер по работе<br> с новыми клиентами</a>
+                    <a class="a-drop a-drop-top" href="#">+7 (926) 037-55-92</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item img-last-nav-li">
+              <a class="nav-link active" href="#"><img class="img-last-nav" src="./img/Group 2604.png" alt=""></a>
+            </li>
+          </div>
+        </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="div-nav-adaptive">
+      <div class="dropdown-222">
+        <button onclick="myFunction()" class="dropbtn-222">+7 (916) 171-27-67<span><img class="img-arrow"
+              src="./img/arrow-black.png" alt=""></span></button>
+        <p class="p-email">frolova.antonina.voda@yandex.ru</p>
+        <div id="myDropdown" class="dropdown-content-222">
+          <a class="p-drop" href="#">Телефоны для заказа</a>
+          <div class="phons phons-22">
+            <a class="a-drop" href="#">+7 (916) 171-27-67</a>
+            <a class="a-drop" href="#">+7 (968) 721-22-51</a>
+            <a class="a-drop" href="#">+7 (903) 739-72-46</a>
+            <a class="a-drop" href="#">+7 (917) 528-41-57</a>
+          </div>
+          <div class="liner-drop"></div>
+          <a class="p-drop p-drop-2" href="#">Менеджер по работе<br> с новыми клиентами</a>
+          <a class="a-drop a-drop-top" href="#">+7 (926) 037-55-92</a>
+        </div>
+      </div>
+      <div class="navbar-content-adaptive">
+        <h3 class="h3-katlog-adap"><span><img class="blue-img" src="./img/filter-blue.png" alt=""></span>Каталог</h3>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <h3 class="h3-katlog-adap-22"><span><img class="blue-img-22" src="./img/fura-blue.png"
+                      alt=""></span>Доставка</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <p class="p-accordion">Доставка воды в офис</p>
+                <p class="p-accordion">Доставка воды на дом</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="h3-after-accor">О компании</h3>
+        <h3 class="h3-after-accor">Статьи</h3>
+        <h3 class="h3-after-accor">Отзывы</h3>
+        <h3 class="h3-after-accor">Фирменные павильоны</h3>
+        <h3 class="h3-after-accor">Контакты</h3>
+      </div>
+    </div>
+    <div class="wrapper wrper-nav-intonav-div">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <a class="nav-link active nav-a-katalog-norm" aria-current="page" href="#"><span><img class="img-icon-1"
+                  src="./img/con-nav-1.png" alt=""></span><span class="span-color-nav-2">Каталог</span></a>
+            <br>
+            <a class="nav-link active nav-a-katalog-norm" href="#"><span><img class="img-icon-2"
+                  src="./img/icon-nav-2.png" alt=""></span><span class="span-color-nav-2">Доставка</span></a>
+            <a class="span-color-nav-2-no-name" href="#">Доставка воды в офис</a>
+            <br>
+            <a class="span-color-nav-2-no-name" href="#">Доставка воды на дом</a>
+          </div>
+          <div class="col div-2-nuber">
+            <a class="span-color-nav-2-no-name" href="#">О компании</a>
+            <br>
+            <a class="span-color-nav-2-no-name" href="#">Статьи</a>
+            <br>
+            <a class="span-color-nav-2-no-name" href="#">Отзывы</a>
+            <br>
+            <a class="span-color-nav-2-no-name" href="#">Фирменные павильоны</a>
+            <br>
+            <a class="span-color-nav-2-no-name" href="#">Контакты</a>
+          </div>
+          <div class="col div-3-nuber">
+            <a class="span-color-nav-2-no-name span-color-nav-2-no-name-first-bottom" href="#">Телефоны для заказа</a>
+            <br>
+            <div class="div-phone-numbers-flex">
+              <div>
+                <a class="span-color-nav-2-no-name" href="#">+7 (916) 171-27-67</a>
+                <br>
+                <a class="span-color-nav-2-no-name" href="#">+7 (968) 721-22-51</a>
+                <br>
+              </div>
+              <div class="div-left-2">
+                <a class="span-color-nav-2-no-name" href="#">+7 (916) 171-27-67</a></a>
+                <br>
+                <a class="span-color-nav-2-no-name" href="#">+7 (916) 171-27-67</a>
+              </div>
+            </div>
+            <a class="span-color-nav-2-no-name span-color-nav-2-no-name-first-bottom" href="#">Менеджер по работе с
+              новыми клиентами</a>
+            <br>
+            <a class="span-color-nav-2-no-name" href="#">+7 (926) 037-55-92</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <nav class="navbar navbarScroll navbar-expand-чl navbar-dark">
+      <div class="container-fluid wrapper">
+        <a class="navbar-brand" href="index.html"><img class="img-group-nav" src="./img/Group 2561.png" alt=""></a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="ul-flex">
+            <li class="nav-item li-katalog">
+              <a class="nav-link active cool-link" aria-current="page" href="#"><span><img class="img-icon-1"
+                    src="./img/con-nav-1.png" alt=""></span> Каталог</a>
+            </li>
+            <li class="nav-item li-divelery">
+              <a class="nav-link active cool-link" href="#"><span><img class="img-icon-2" src="./img/icon-nav-2.png"
+                    alt=""></span>
+                Доставка</a>
+            </li>
+            <li class="nav-item li-btn">
+              <a class="nav-link active " href="#"><button class="button-nav">Быстрый заказ</button></a>
+            </li>
+            <li class="nav-item li-drop">
+              <a class="nav-link active" href="#">
+                <div class="dropdown">
+                  <button class="dropbtn">+7 (916) 171-27-67<span><img class="img-arrow" src="./img/arrow.png"
+                        alt=""></span></button>
+                  <div class="dropdown-content">
+                    <a class="p-drop" href="#">Телефоны для заказа</a>
+                    <div class="phons">
+                      <a class="a-drop" href="#">+7 (916) 171-27-67</a>
+                      <a class="a-drop" href="#">+7 (968) 721-22-51</a>
+                      <a class="a-drop" href="#">+7 (903) 739-72-46</a>
+                      <a class="a-drop" href="#">+7 (917) 528-41-57</a>
+                    </div>
+                    <div class="liner-drop"></div>
+                    <a class="p-drop p-drop-2" href="#">Менеджер по работе<br> с новыми клиентами</a>
+                    <a class="a-drop a-drop-top" href="#">+7 (926) 037-55-92</a>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item img-last-nav-li">
+              <a class="nav-link active" href="#"><img class="img-last-nav" src="./img/Group 2604.png" alt=""></a>
+            </li>
+          </div>
+        </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  <div class="wrapper warapper-sec-6 warapper-sec-6-another">
+    <a class="decoration-none" href="index.html"><button class="button-to-main">< Главная</button></a>
+    <h2 class="stats">Статьи</h2>
+    <div class="container-fluid margin-top-vontainer">
+      <div class="row">
+        <div data-aos="fade-up" class="col div-border-lef">
+          <img class="ma-with-change" src="./img/state-1.png" alt="">
+          <div class="div-img-state">
+            <img class="img-state" src="./img/state-icon-1.png" alt="">
+            <p class="p-state">20 января 2022</p>
+          </div>
+          <h4 class="h4-state">Откуда берутся цветные дожди</h4>
+          <p class="last-p-state last-p-state-lol">Еще из уроков по биологии и географии мы знаем о цветных дождях –
+            интересном, а
+            порой
+            и пугающем природном явлении. </p>
+        </div>
+        <div data-aos="fade-down" class="col div-border-lef">
+          <img class="ma-with-change" src="./img/state-2.png" alt="">
+          <div class="div-img-state">
+            <img class="img-state" src="./img/state-icon-1.png" alt="">
+            <p class="p-state">18 января 2022</p>
+          </div>
+          <h4 class="h4-state">Что такое память воды</h4>
+          <p class="last-p-state">По результатам многолетних исследований удалось выяснить, что живая вода обладает
+            памятью и способностью носить информацию.</p>
+        </div>
+        <div data-aos="fade-up" class="col div-border-lef">
+          <img class="ma-with-change" src="./img/state-3.png" alt="">
+          <div class="div-img-state">
+            <img class="img-state" src="./img/state-icon-1.png" alt="">
+            <p class="p-state">16 января 2022</p>
+          </div>
+          <h4 class="h4-state">Зачем нужен микробиологический анализ воды</h4>
+          <p class="last-p-state">В воде, подающейся через системы центрального или автономного водоснабжения, кроме
+            природных загрязнений, извести или ржавчины могут </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper warapper-sec-6">
+    <div class="container-fluid margin-top-vontainer">
+      <div class="row">
+        <div data-aos="fade-up" class="col div-border-lef">
+          <img class="ma-with-change" src="./img/lol1.png" alt="">
+          <div class="div-img-state">
+            <img class="img-state" src="./img/state-icon-1.png" alt="">
+            <p class="p-state">20 января 2022</p>
+          </div>
+          <h4 class="h4-state">Откуда берутся цветные дожди</h4>
+          <p class="last-p-state last-p-state-lol">Еще из уроков по биологии и географии мы знаем о цветных дождях –
+            интересном, а
+            порой
+            и пугающем природном явлении. </p>
+        </div>
+        <div data-aos="fade-down" class="col div-border-lef">
+          <img class="ma-with-change" src="./img/lol2.png" alt="">
+          <div class="div-img-state">
+            <img class="img-state" src="./img/state-icon-1.png" alt="">
+            <p class="p-state">18 января 2022</p>
+          </div>
+          <h4 class="h4-state">Что такое память воды</h4>
+          <p class="last-p-state">По результатам многолетних исследований удалось выяснить, что живая вода обладает
+            памятью и способностью носить информацию.</p>
+        </div>
+        <div data-aos="fade-up" class="col div-border-lef">
+          <img class="ma-with-change" src="./img/lol3.png" alt="">
+          <div class="div-img-state">
+            <img class="img-state" src="./img/state-icon-1.png" alt="">
+            <p class="p-state">16 января 2022</p>
+          </div>
+          <h4 class="h4-state">Зачем нужен микробиологический анализ воды</h4>
+          <p class="last-p-state">В воде, подающейся через системы центрального или автономного водоснабжения, кроме
+            природных загрязнений, извести или ржавчины могут </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper warapper-sec-6">
+    <div class="container-fluid margin-top-vontainer">
+      <div class="row">
+        <div data-aos="fade-up" class="col div-border-lef">
+          <img class="ma-with-change" src="./img/lol4.png" alt="">
+          <div class="div-img-state">
+            <img class="img-state" src="./img/state-icon-1.png" alt="">
+            <p class="p-state">20 января 2022</p>
+          </div>
+          <h4 class="h4-state">Откуда берутся цветные дожди</h4>
+          <p class="last-p-state last-p-state-lol">Еще из уроков по биологии и географии мы знаем о цветных дождях –
+            интересном, а
+            порой
+            и пугающем природном явлении. </p>
+        </div>
+        <div data-aos="fade-down" class="col div-border-lef">
+          <img class="ma-with-change" src="./img/lol5.png" alt="">
+          <div class="div-img-state">
+            <img class="img-state" src="./img/state-icon-1.png" alt="">
+            <p class="p-state">18 января 2022</p>
+          </div>
+          <h4 class="h4-state">Что такое память воды</h4>
+          <p class="last-p-state">По результатам многолетних исследований удалось выяснить, что живая вода обладает
+            памятью и способностью носить информацию.</p>
+        </div>
+        <div data-aos="fade-up" class="col div-border-lef">
+          <img class="ma-with-change" src="./img/lol6.png" alt="">
+          <div class="div-img-state">
+            <img class="img-state" src="./img/state-icon-1.png" alt="">
+            <p class="p-state">16 января 2022</p>
+          </div>
+          <h4 class="h4-state">Зачем нужен микробиологический анализ воды</h4>
+          <p class="last-p-state">В воде, подающейся через системы центрального или автономного водоснабжения, кроме
+            природных загрязнений, извести или ржавчины могут </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="last-end-div">
+    <div class=" wrapper">
+      <div class="iiuewfe">
+        <div class="div-0">
+          <img class="img-group-2561" src="./img/Group 2561.png" alt="">
+        </div>
+        <div class="div-1">
+          <p class="p-con-devel"><span><img class="img-icons-end" src="./img/icon-nav-2.png" alt=""></span>Каталог</p>
+          <p class="p-con-devel"><span><img class="img-icons-end" src="./img/con-nav-1.png" alt=""></span>Доставка</p>
+          <p class="p-non-con">Доставка воды в офис</p>
+          <p class="p-non-con">Доставка воды на дом</p>
+        </div>
+        <div class="div-2">
+          <p class="p-non-con">О компании</p>
+          <p class="p-non-con">Статьи</p>
+          <p class="p-non-con">Отзывы</p>
+          <p class="p-non-con">Фирменные павильоны</p>
+          <p class="p-non-con">Контакты</p>
+        </div>
+        <div class="div-3">
+          <a class="span-color-nav-2-no-name span-color-nav-2-no-name-first-bottom" href="#">Телефоны для заказа</a>
+          <br>
+          <a class="span-color-nav-2-no-name" href="#">+7 (916) 171-27-67</a>
+          <br>
+          <a class="span-color-nav-2-no-name" href="#">+7 (968) 721-22-51</a>
+          <br>
+          <a class="span-color-nav-2-no-name" href="#">+7 (916) 171-27-67</a>
+          <br>
+          <a class="span-color-nav-2-no-name" href="#">+7 (916) 171-27-67</a>
+          <br><br>
+          <a class="span-color-nav-2-no-name span-color-nav-2-no-name-first-bottom" href="#">Электронная почта</a>
+          <br>
+          <a class="span-color-nav-2-no-name email" href="#">frolova.antonina.voda@yandex.ru</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
